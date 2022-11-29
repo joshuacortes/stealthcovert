@@ -32,7 +32,7 @@
       -webkit-filter: invert(1);
    filter: invert(1);
       vertical-align:middle;
-      padding:50px;
+      padding:20px;
     }
     .socialicon:hover{
       opacity:0.08;
