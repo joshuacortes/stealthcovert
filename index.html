@@ -6,17 +6,42 @@
   <style>
     body{
       background-color:#000000;
+      margin:0;
+      padding:0;
+    }
+    
+    .widebox{
+     width:10600px;
+      margin-top:30px;
     }
     .box{
       width:500px;
       border-right:1px solid #fff;
+      height:auto;
       float:left;
     }
     p{
       color:#fff;
     }
+    .ticker{
+      background-color:#060606;position:fixed;
+      width:100%;
+      top:0;
+    }
+    .logo{
+      font-size:.8em;
+      color:#fff;
+      font-family:verdana;
+      letter-spacing:1px;
+      font-style:italic;
+    }
+
   </style>
-<body style="width:10600px;">
+  <div class="ticker"><center>
+    <h1 class="logo">STEALTH</h1></center>
+  </div>
+<body >
+  <div class="widebox">
   <div class="box">
     <p>1 </p>
   </div>
@@ -76,6 +101,7 @@
   </div>
    <div class="box">
     <p>20</p>
+  </div>
   </div>
 </body>
 </html>
