@@ -16,14 +16,12 @@
     p{
       color:#fff;
     }
-    .ticker{
-      background-color:#000000;position:fixed;
+    .ticker{position:fixed;
       width:100%;
       top:0;
-      background-image: linear-gradient(#2d2d2d , #000000);
     }
     .logo{
-      font-size:.98em;
+      font-size:1.9em;
       color:#fff;
       font-family:verdana;
       letter-spacing:2.5px;
@@ -42,25 +40,31 @@
  
     
     .boxvideo{
-      width:760px;
-      height:427px;
-      
+     
+  min-width: 50%; 
+  min-height: ;
     }
     
     .heightone{
       height:120px;
     }
+    
+    .announcement{
+      color:#fff;
+      font-family:arial;
+    }
 @media only screen and (max-width:749px){
   .heightone{
       height:220px;
     }
-  .boxvideo{
-      width:100%;
-    height:auto;
+     .boxvideo{
+     
+  min-width: 100%; 
+  min-height: 100vh;
     }
   
   .logo{
-    .9em;
+    1.9em;
   }
     }
     
@@ -75,16 +79,18 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  height:auto;
+ position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity:0.5;
+  margin: 0;
 }
   
 @media only screen and (max-width:700px){
   .slideshow-container {
   width: 100%;
-    height:350px;
 }
   
   }
@@ -139,10 +145,6 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
   </style>
-  <div class="ticker"><center>
-    <h1 class="logo">STEALTH</h1></center>
-  </div>
-  
 <body >
   <center>
    
@@ -155,21 +157,21 @@ img {vertical-align: middle;}
 <div  class="mySlides fade">
   <div class="numbertext">1</div>
   
-<video class="boxvideo" src="https://user-images.githubusercontent.com/11182868/204663924-468f2ed8-0a81-4210-add3-80ded35b314d.mp4" playsinline loop muted autoplay></video>  
+<video class="boxvideo" src="https://user-images.githubusercontent.com/11182868/204693781-8c252858-5526-47ab-9f3e-b08be6944a22.mp4" playsinline loop muted autoplay></video>  
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2</div>
 
 
-  <video class="boxvideo" src="https://user-images.githubusercontent.com/11182868/204664574-c09400bc-ff2a-465a-8f8f-41eacdd97868.mp4" playsinline loop muted autoplay></video>  
+  <video class="boxvideo" src="https://user-images.githubusercontent.com/11182868/204693787-200eb0ea-f03e-4f63-b35f-c924015d526d.mp4" playsinline loop muted autoplay></video>  
   
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3</div>
 
-<video class="boxvideo" src="https://user-images.githubusercontent.com/11182868/204663934-2d8fb7b1-5bf0-4651-8f8a-b0a4df6ac2db.mp4" playsinline loop muted autoplay></video>  
+<video class="boxvideo" src="https://user-images.githubusercontent.com/11182868/204693790-62830db5-5d7e-4612-85a6-b1fd7d65d4d0.mp4" playsinline loop muted autoplay></video>  
 </div>
 
 </div>
@@ -181,6 +183,7 @@ img {vertical-align: middle;}
   <span class="dot"></span> 
 </div>
 
+  
 <script>
 let slideIndex = 0;
 showSlides();
@@ -205,7 +208,18 @@ function showSlides() {
 
   
   
-  </div>
+  
+  
+  <center>
+    <h1 class="logo">STEALTH</h1></center>
+ 
+  
+  <h2 class="announcement">
+    ISSUE #1
+    <br>
+    January 6, 2023
+  </h2>
+  
   <a target="blank" style="text-decoration:none;" href="https://www.instagram.com/stealthcovertusa/">
     <img class="socialicon" src="https://i.postimg.cc/BvGXgMgF/black-instagram.png"/>
   </a>
