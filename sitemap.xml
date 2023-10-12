@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://stealthcovert.com/</loc>
+       <lastmod>2023-10-12T20:12:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://stealthcovert.com/sign-up</loc>
+       <lastmod>2023-10-12T20:12:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://stealthcovert.com/gallery</loc>
+       <lastmod>2023-10-12T20:12:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://stealthcovert.com/redeem</loc>
+       <lastmod>2023-10-12T20:12:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://stealthcovert.com/menu</loc>
+       <lastmod>2023-10-12T20:12:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://stealthcovert.com/rules</loc>
+       <lastmod>2023-10-12T20:12:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://stealthcovert.com/warning</loc>
+       <lastmod>2023-10-12T20:12:32+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+</urlset>
