@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stealth Covert</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  a{
+    font-weight:bold;
+  }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  background-color:#000000;
+  width:100%;
+}
+
+  .responsiveimage{
+    width:50%;
+  }
+
+  .respheight{
+    height:0px;
+  }
+  .section1{
+   width:53%;
+    
+  }
+  
+  .custombutton{
+    color:#fff;
+    text-decoration:none;
+    font-size:1.9em;
+  }
+  
+  .custombutton:hover{
+    opacity:0.3;
+  }
+  
+  .testone{
+    width:35%;
+  }
+   .testtwo{
+    width:70%;
+  }
+  
+  
+@media only screen and (max-width:800px){
+  
+    .testone{
+    width:99%;
+  }
+    .testtwo{
+    width:99%;
+  }
+  
+   .custombutton{
+  
+    font-size:1.5em;
+  }
+  
+   .section1{
+   width:99%;
+    
+  }
+    .respheight{
+    height:120px;
+  }
+  
+    .responsiveimage{
+    width:90%;
+  }
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="/" style=""><img style="padding:11px 25px" src="https://i.ibb.co/WkvjdKw/SC.jpg"/></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="/" class="w3-bar-item w3-button">HOME</a>
+      <a href="/sign-up" class="w3-bar-item w3-button">SIGN UP</a>
+      <a href="/gallery" class="w3-bar-item w3-button">GALLERY</a>
+      <a href="/redeem" class="w3-bar-item w3-button"> REDEEM</a>
+      <a href="/menu" class="w3-bar-item w3-button"> MENU</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">X</a>
+    <a href="/" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="/sign-up" onclick="w3_close()" class="w3-bar-item w3-button">SIGN UP</a>
+  <a href="/gallery" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
+  <a href="/redeem" onclick="w3_close()" class="w3-bar-item w3-button">REDEEM</a>
+      <a href="/menu" class="w3-bar-item w3-button"> MENU</a>
+</nav>
+
+ <center>
+   <div class="respheight"></div>
+
+
+   
+   
+   <div style="height:100px;"></div>
+  <img class="testone" src="https://i.ibb.co/Sc1dsL0/3.jpg"/>
+   
+   <div style="width:98%; margin-top:-50px; opacity:0.93;">
+   <script type="text/javascript" src="https://form.jotform.com/jsform/232785034211045"></script>
+   </div>
+   
+   <div style="height:50px;"></div>
+   <img class="testone" src="https://i.ibb.co/VNkZtjJ/6.jpg"/>
+   
+   
+  </center>
+  
+  
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
